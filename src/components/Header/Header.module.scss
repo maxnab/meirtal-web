@@ -1,0 +1,23 @@
+@import "./src/variables";
+
+.wrap {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  color: $blue;
+  background: $black;
+  height: 7vh;
+  h1 {
+    cursor: pointer;
+  }
+}
+
+.links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  a {
+    @include link;
+    margin: 10px;
+  }
+}

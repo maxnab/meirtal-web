@@ -1,0 +1,15 @@
+$font: 'Montserrat', sans-serif;
+$s-size: 12px;
+$m-size: 16px;
+$l-size: 20px;
+$xl-size: 30px;
+
+$black: black;
+$blue: #56b4b4;
+$white: white;
+
+@mixin link{
+  color: $white;
+  text-decoration: none;
+  outline: none;
+}

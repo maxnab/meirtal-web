@@ -1,0 +1,19 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  h1 {
+    margin-bottom: 25px;
+  }
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  p, a {
+    margin-bottom: 15px;
+  }
+
+}

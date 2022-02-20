@@ -1,0 +1,21 @@
+@import './variables';
+
+.app {
+  height: 100vh;
+  font-family: $font;
+  * {
+    box-sizing: border-box;
+  }
+  h1 {
+    font-size: $xl-size;
+  }
+  h2 {
+    font-size: $l-size;
+  }
+  h3 {
+    font-size: $m-size;
+  }
+  h4 {
+    font-size: $s-size;
+  }
+}
